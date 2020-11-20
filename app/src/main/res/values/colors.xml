@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Quickly tweaked colors to fit overall app color scheme -->
+    <color name="greenish">#96c93d</color>
+    <color name="hatched">#01b09a</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_trans">#44FFFFFF</color>
+    <color name="white_trans_pressed">#66FFFFFF</color>
+    <color name="hint_color">#96c93d</color>
+    <color name="bg_main_start">#01b09a</color>
+    <color name="bg_main_end">#96c93d</color>
+</resources>

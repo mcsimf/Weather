@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragSearch">
+
+    <fragment
+        android:id="@+id/fragSearch"
+        android:name="com.mcsimf.openweathermap.app.FragSearch"
+        android:label="FragSearch">
+        <action
+            android:id="@+id/action_fragSearch_to_fragWeather"
+            app:destination="@id/fragWeather"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_fragSearch_to_fragCache"
+            app:destination="@id/fragCache"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragWeather"
+        android:name="com.mcsimf.openweathermap.app.FragWeather"
+        android:label="FragWeather" />
+
+    <fragment
+        android:id="@+id/fragCache"
+        android:name="com.mcsimf.openweathermap.app.FragCache"
+        android:label="FragCache" />
+
+</navigation>
