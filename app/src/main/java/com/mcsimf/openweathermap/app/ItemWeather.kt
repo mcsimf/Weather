@@ -26,7 +26,7 @@ class ItemWeather @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
     defStyleAttrs: Int = 0
-) : ConstraintLayout(context, attrs, defStyleAttrs) {
+) : FrameLayout(context, attrs, defStyleAttrs) {
 
 
     companion object {
@@ -52,7 +52,7 @@ class ItemWeather @JvmOverloads constructor(
         city_name.text = data.name
         temp.text = " " + data.main.temp.toInt().toString() + "\t°"
         date.text = convertLongToTime(data.dt)
-        setColors(data.main.temp.toInt())
+        //setColors(data.main.temp.toInt())
     }
 
 
