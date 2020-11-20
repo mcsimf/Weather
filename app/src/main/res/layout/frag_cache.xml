@@ -10,9 +10,8 @@
         android:layout_height="wrap_content"
         android:background="@null"
         android:padding="@dimen/double_space"
-        android:rotation="180"
-        android:rotationX="180"
-        android:src="@drawable/ic_arrow" />
+        android:tint="@color/white"
+        android:src="@drawable/ic_baseline_arrow_back_24" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
